@@ -1,0 +1,135 @@
+
+.main {
+height: 1200px;
+width: 1330px;
+border: 2px solid white;
+border-color: #fdf2e9;
+border-radius: 5px;
+}
+
+.chi1 {
+    display: inline-block;
+}
+.child1 {
+    display: inline-block;
+    height: 180px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.child2 {
+    display: inline-block;
+    height: 180px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.child3 {
+    display: inline-block;
+    height: 180px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.child4 {
+    display: inline-block;
+    height: 180px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.child5 {
+    display: inline-block;
+    height: 180px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.chi2 {
+    display: inline-block;
+}
+.sub-child1 {
+    display: inline-block;
+    height: 1000px;
+    width: 550px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.chi3 {
+    display: inline-block;
+}
+
+.chi4 {
+    float: right;
+    display: inline-block;
+    margin-right: 0;
+    height: 1000px;
+    width: 450px;
+    border: 2px solid white;
+}
+
+.rm {
+    margin-right: 0px;
+    float: right;
+}
+
+.recom {
+    height: 2.2rem;
+    width: 11rem;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.size {
+    height: 2.8rem;
+    width: 3.2rem;
+    
+}
+
+.pincode{
+    background-color:white;
+    color: black;
+    text-align: center; 
+    height: 2.4rem;
+    width: 11.8rem;
+}
+
+.check {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2.4rem;
+    width: 11.8rem;
+}
+
+.cart {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2.4rem;
+    width: 8.2rem;
+}
