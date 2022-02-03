@@ -1,0 +1,46 @@
+<html>
+<body>
+<script>
+document.writeln("<h1>STRINGS-STRING OBJECT</h1>");
+document.writeln("<h2>");
+var s1="Welcome to strings in 'JAVA SCRIPT'"
+document.writeln("Double quoted string: ",s1,"<br>");
+var s2='String with single quote with "Double quotations"'
+document.writeln("single quoted string: ",s2,"<BR>");
+document.writeln(typeof s2,"<br>");
+var s3=new String("This is string object","<br>");
+document.writeln("string object: ",s3,"<br>");
+document.writeln(typeof s3,"<br>");
+document.writeln("<h1>STRING METHODS</h1>");
+document.writeln("<h2>");
+document.writeln("s1=",s1,"<br>","s2=",s2,"<br>","s3=",s3,"<br>");
+document.writeln("indexOf()-position of o in s1: ",s1.indexOf("o"),"<br>");
+document.writeln("lastIndexOf()-position of o in s1: ",s1.lastIndexOf("o"),"<br>");
+document.writeln("indexOf() with one argument-position of o in s1: ",s1.indexOf("o",6),"<br>");
+document.writeln("search()-position of W in s1:  ",s1.search("W"),"<br>");
+document.writeln("slice()-Extract from  s1:  ",s1.slice(0,5),"<br>");
+document.writeln("slice()-Extract from  s1:  ",s1.slice(7),"<br>");
+document.writeln("slice()-Extract from  s1 with Negative index:  ",s1.slice(0,-34),"<br>");
+document.writeln("substring()-Extract from  s1:  ",s1.substring(0,9),"<br>");
+document.writeln("substr()-Extract from  s1:  ",s1.substr(0,9),"<br>");
+document.writeln("replace()-Replacing-  ",s1.replace('JAVA SCRIPT','JS'),"<br>");
+var s4="welcome to java script"
+document.writeln(s4.toUpperCase(),"<br>");
+var s5=s4.toUpperCase();
+document.writeln(s5.toLowerCase(),"<br>");
+var s6="hello,";
+document.writeln(s6.concat(s5),"<br>");
+var s7="   JAVA SCRIPT   "
+document.writeln("LENGTH OF s7 IS: ",s7.length,"<br>");
+var s8=s7.trim();
+document.writeln("LENGTH OF s8 IS: ",s8.length,"<br>");
+document.writeln(s1.length,"<br>");
+document.writeln("charAt()-",s1.charAt(8),"<br>");
+document.writeln("charCodeAt()-",s1.charCodeAt(8),"<br>");
+for(i=0;i<s8.length;i++)
+{
+document.writeln(s8[i]+"<br>");
+}
+</script>
+</body>
+</html>
